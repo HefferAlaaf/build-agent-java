@@ -1,7 +1,7 @@
 # from 17.06
 # ARG BASE_VERSION
 # FROM cspd01.csp.comlineag.cl.local:5000/csp/jenkins-slave-base:${BASE_VERSION}
-FROM cspd01.csp.comlineag.cl.local:5000/csp/jenkins-slave-base:1.3.0
+FROM https://cloud.docker.com/repository/docker/hefferalaaf/build-agent-base
 
 USER ${JENKINS_USER}
 
